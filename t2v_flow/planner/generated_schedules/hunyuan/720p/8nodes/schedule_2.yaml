@@ -1,0 +1,238 @@
+tasks:
+- name: 1_129_1280_720_rank2_VAE_g012345
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 6
+- name: 1_77_1280_720_rank5_VAE_g6
+  gpus:
+  - 6
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 1
+- name: 1_129_1280_720_rank3_VAE_g789101112131415161718
+  gpus:
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 12
+- name: 1_129_1280_720_rank0_VAE_g192021222324252627282930
+  gpus:
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 12
+- name: 1_129_1280_720_rank0_DIT_g1920212223242526
+  gpus:
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  dependencies:
+  - 1_129_1280_720_rank0_VAE_g192021222324252627282930
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 1_129_1280_720_rank0_VAE_g192021222324252627282930
+- name: 1_129_1280_720_rank3_DIT_g7891011121314
+  gpus:
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  dependencies:
+  - 1_129_1280_720_rank3_VAE_g789101112131415161718
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 1_129_1280_720_rank3_VAE_g789101112131415161718
+- name: 1_129_1280_720_rank7_VAE_g313233343536
+  gpus:
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 6
+- name: 1_129_1280_720_rank7_DIT_g3132333435363738
+  gpus:
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  dependencies:
+  - 1_129_1280_720_rank7_VAE_g313233343536
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 1_129_1280_720_rank7_VAE_g313233343536
+- name: 2_73_1280_720_rank1_VAE_g3940414243444546
+  gpus:
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 8
+- name: 1_129_1280_720_rank2_DIT_g012345474849505152
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  dependencies:
+  - 1_129_1280_720_rank2_VAE_g012345
+  args:
+    task_type: DIT
+    sp: 12
+    data_source_task: 1_129_1280_720_rank2_VAE_g012345
+- name: 1_77_1280_720_rank6_VAE_g5354555657585960
+  gpus:
+  - 53
+  - 54
+  - 55
+  - 56
+  - 57
+  - 58
+  - 59
+  - 60
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 8
+- name: 2_73_1280_720_rank1_DIT_g3940414243444546
+  gpus:
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  dependencies:
+  - 2_73_1280_720_rank1_VAE_g3940414243444546
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 2_73_1280_720_rank1_VAE_g3940414243444546
+- name: 1_77_1280_720_rank6_DIT_g535455565758
+  gpus:
+  - 53
+  - 54
+  - 55
+  - 56
+  - 57
+  - 58
+  dependencies:
+  - 1_77_1280_720_rank6_VAE_g5354555657585960
+  args:
+    task_type: DIT
+    sp: 6
+    data_source_task: 1_77_1280_720_rank6_VAE_g5354555657585960
+- name: 1_85_1280_720_rank4_VAE_g61
+  gpus:
+  - 61
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 1
+- name: 1_85_1280_720_rank4_DIT_g1516175960616263
+  gpus:
+  - 15
+  - 16
+  - 17
+  - 59
+  - 60
+  - 61
+  - 62
+  - 63
+  dependencies:
+  - 1_129_1280_720_rank3_VAE_g789101112131415161718
+  - 1_77_1280_720_rank6_VAE_g5354555657585960
+  - 1_85_1280_720_rank4_VAE_g61
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 1_85_1280_720_rank4_VAE_g61
+- name: 1_77_1280_720_rank5_DIT_g618272829305354
+  gpus:
+  - 6
+  - 18
+  - 27
+  - 28
+  - 29
+  - 30
+  - 53
+  - 54
+  dependencies:
+  - 1_129_1280_720_rank0_VAE_g192021222324252627282930
+  - 1_129_1280_720_rank3_VAE_g789101112131415161718
+  - 1_77_1280_720_rank5_VAE_g6
+  - 1_77_1280_720_rank6_DIT_g535455565758
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 1_77_1280_720_rank5_VAE_g6

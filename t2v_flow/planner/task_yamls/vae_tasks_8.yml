@@ -1,0 +1,15 @@
+tasks:
+- name: D_25_720p_VAE_g01234567
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  dependencies: []
+  args:
+    task_type: FULL
+    sp: 8

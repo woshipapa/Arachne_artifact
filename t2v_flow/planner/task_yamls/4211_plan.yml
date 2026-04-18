@@ -1,0 +1,33 @@
+tasks:
+# --------------------------------------------------------------------
+# 阶段 1: 初始任务 (无依赖)
+# 对应图中的 深灰色, 紫色, 橙色, 青色 任务
+# --------------------------------------------------------------------
+- name: D_241_FULL_g01
+  gpus: [ 0, 1, 2, 3 ]
+  dependencies: []
+  args:
+    task_type: FULL
+    sp: 2
+    # ... 其他模型或数据参数
+
+- name: D_221_FULL_g2345
+  gpus: [ 4, 5 ]
+  dependencies: []
+  args:
+    task_type: FULL
+    sp: 4
+
+- name: D_121_FULL_g6
+  gpus: [ 6 ]
+  dependencies: []
+  args:
+    task_type: FULL
+    sp: 1
+
+- name: D_97_FULL_g7
+  gpus: [ 7 ]
+  dependencies: []
+  args:
+    task_type: FULL
+    sp: 1

@@ -1,0 +1,9 @@
+tasks:
+  - name: D_97_VAE_g0
+    gpus:
+      - 0
+      - 1
+    dependencies: []
+    args:
+      task_type: FULL
+      sp: 2

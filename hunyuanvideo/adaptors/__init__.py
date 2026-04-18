@@ -1,0 +1,1 @@
+from .hunyuanvideo_trainer import HunYuanVideoTrainer

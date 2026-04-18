@@ -1,0 +1,44 @@
+tasks:
+- name: D_197_720p_VAE_g0123
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 4
+
+- name: D_197_720p_DIT_g0123
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  dependencies: [ D_197_720p_VAE_g0123 ]
+  args:
+    task_type: DIT
+    sp: 4
+    data_source_task: D_197_720p_VAE_g0123
+- name: D_127_720p_VAE_g4567
+  gpus:
+  - 4
+  - 5
+  - 6
+  - 7
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 4
+- name: D_127_720p_DIT_g4567
+  gpus:
+  - 4
+  - 5
+  - 6
+  - 7
+  dependencies: [ D_127_720p_VAE_g4567 ]
+  args:
+    task_type: DIT
+    sp: 4
+    data_source_task: D_127_720p_VAE_g4567

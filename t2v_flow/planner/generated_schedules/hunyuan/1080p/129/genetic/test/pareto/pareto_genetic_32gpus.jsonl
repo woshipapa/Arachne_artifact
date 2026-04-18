@@ -1,0 +1,1 @@
+{"schedule_type": "genetic", "n_gpus": 32, "machine_size": 8, "iteration": 0, "yaml_path": "/root/schedule_0.yaml", "pareto": [{"generation": 1, "best_makespan": 83.96076550328885, "elapsed_plan_time": 12.552472829818726}], "num_points": 1, "final_makespan": 83.96076550328885}

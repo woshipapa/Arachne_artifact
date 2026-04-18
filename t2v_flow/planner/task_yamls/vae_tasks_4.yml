@@ -1,0 +1,92 @@
+tasks:
+# --- GPU 组 1: 使用 GPU 0, 1, 2, 3 ---
+- name: Task_VAE_g0123
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 4
+- name: Task_DIT_g0123
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  dependencies: [ Task_VAE_g0123 ]
+  args:
+    task_type: DIT
+    sp: 4
+    data_source_task: Task_VAE_g0123
+
+# --- GPU 组 2: 使用 GPU 4, 5, 6, 7 ---
+- name: Task_VAE_g4567
+  gpus:
+  - 4
+  - 5
+  - 6
+  - 7
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 4
+- name: Task_DIT_g4567
+  gpus:
+  - 4
+  - 5
+  - 6
+  - 7
+  dependencies: [ Task_VAE_g4567 ]
+  args:
+    task_type: DIT
+    sp: 4
+    data_source_task: Task_VAE_g4567
+
+# --- GPU 组 3: 使用 GPU 8, 9, 10, 11 ---
+- name: Task_VAE_g8to11
+  gpus:
+  - 8
+  - 9
+  - 10
+  - 11
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 4
+- name: Task_DIT_g8to11
+  gpus:
+  - 8
+  - 9
+  - 10
+  - 11
+  dependencies: [ Task_VAE_g8to11 ]
+  args:
+    task_type: DIT
+    sp: 4
+    data_source_task: Task_VAE_g8to11
+
+# --- GPU 组 4: 使用 GPU 12, 13, 14, 15 ---
+- name: Task_VAE_g12to15
+  gpus:
+  - 12
+  - 13
+  - 14
+  - 15
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 4
+- name: Task_DIT_g12to15
+  gpus:
+  - 12
+  - 13
+  - 14
+  - 15
+  dependencies: [ Task_VAE_g12to15 ]
+  args:
+    task_type: DIT
+    sp: 4
+    data_source_task: Task_VAE_g12to15

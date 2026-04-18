@@ -1,0 +1,231 @@
+tasks:
+- name: 1_129_1280_720_rank7_VAE_g781624
+  gpus:
+  - 7
+  - 8
+  - 16
+  - 24
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 4
+- name: 1_129_1280_720_rank6_VAE_g01
+  gpus:
+  - 0
+  - 1
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 2
+- name: 1_129_1280_720_rank3_VAE_g6917252627
+  gpus:
+  - 6
+  - 9
+  - 17
+  - 25
+  - 26
+  - 27
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 6
+- name: 1_129_1280_720_rank3_DIT_g6917252627
+  gpus:
+  - 6
+  - 9
+  - 17
+  - 25
+  - 26
+  - 27
+  dependencies:
+  - 1_129_1280_720_rank3_VAE_g6917252627
+  args:
+    task_type: DIT
+    sp: 6
+    data_source_task: 1_129_1280_720_rank3_VAE_g6917252627
+- name: 1_129_1280_720_rank7_DIT_g71523282930
+  gpus:
+  - 7
+  - 15
+  - 23
+  - 28
+  - 29
+  - 30
+  dependencies:
+  - 1_129_1280_720_rank7_VAE_g781624
+  args:
+    task_type: DIT
+    sp: 6
+    data_source_task: 1_129_1280_720_rank7_VAE_g781624
+- name: 1_129_1280_720_rank4_VAE_g510181920212231
+  gpus:
+  - 5
+  - 10
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 31
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 8
+- name: 1_129_1280_720_rank2_VAE_g234111213
+  gpus:
+  - 2
+  - 3
+  - 4
+  - 11
+  - 12
+  - 13
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 6
+- name: 1_129_1280_720_rank2_DIT_g510181920212231
+  gpus:
+  - 5
+  - 10
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 31
+  dependencies:
+  - 1_129_1280_720_rank2_VAE_g234111213
+  - 1_129_1280_720_rank4_VAE_g510181920212231
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 1_129_1280_720_rank2_VAE_g234111213
+- name: 1_129_1280_720_rank4_DIT_g48111213141624
+  gpus:
+  - 4
+  - 8
+  - 11
+  - 12
+  - 13
+  - 14
+  - 16
+  - 24
+  dependencies:
+  - 1_129_1280_720_rank2_VAE_g234111213
+  - 1_129_1280_720_rank4_VAE_g510181920212231
+  - 1_129_1280_720_rank7_VAE_g781624
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 1_129_1280_720_rank4_VAE_g510181920212231
+- name: 1_129_1280_720_rank6_DIT_g08101618192431
+  gpus:
+  - 0
+  - 8
+  - 10
+  - 16
+  - 18
+  - 19
+  - 24
+  - 31
+  dependencies:
+  - 1_129_1280_720_rank2_DIT_g510181920212231
+  - 1_129_1280_720_rank4_DIT_g48111213141624
+  - 1_129_1280_720_rank6_VAE_g01
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 1_129_1280_720_rank6_VAE_g01
+- name: 1_109_1280_720_rank1_VAE_g235202122
+  gpus:
+  - 2
+  - 3
+  - 5
+  - 20
+  - 21
+  - 22
+  dependencies:
+  - 1_129_1280_720_rank2_DIT_g510181920212231
+  - 1_129_1280_720_rank2_VAE_g234111213
+  args:
+    task_type: VAE
+    sp: 6
+- name: 2_53_1280_720_rank5_VAE_g412
+  gpus:
+  - 4
+  - 12
+  dependencies:
+  - 1_129_1280_720_rank4_DIT_g48111213141624
+  args:
+    task_type: VAE
+    sp: 2
+- name: 1_109_1280_720_rank1_DIT_g2351314202122
+  gpus:
+  - 2
+  - 3
+  - 5
+  - 13
+  - 14
+  - 20
+  - 21
+  - 22
+  dependencies:
+  - 1_109_1280_720_rank1_VAE_g235202122
+  - 1_129_1280_720_rank4_DIT_g48111213141624
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 1_109_1280_720_rank1_VAE_g235202122
+- name: 2_57_1280_720_rank0_VAE_g17111523282930
+  gpus:
+  - 1
+  - 7
+  - 11
+  - 15
+  - 23
+  - 28
+  - 29
+  - 30
+  dependencies:
+  - 1_129_1280_720_rank4_DIT_g48111213141624
+  - 1_129_1280_720_rank6_VAE_g01
+  - 1_129_1280_720_rank7_DIT_g71523282930
+  args:
+    task_type: VAE
+    sp: 8
+- name: 2_57_1280_720_rank0_DIT_g712151723282930
+  gpus:
+  - 7
+  - 12
+  - 15
+  - 17
+  - 23
+  - 28
+  - 29
+  - 30
+  dependencies:
+  - 1_129_1280_720_rank3_DIT_g6917252627
+  - 2_53_1280_720_rank5_VAE_g412
+  - 2_57_1280_720_rank0_VAE_g17111523282930
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 2_57_1280_720_rank0_VAE_g17111523282930
+- name: 2_53_1280_720_rank5_DIT_g146911252627
+  gpus:
+  - 1
+  - 4
+  - 6
+  - 9
+  - 11
+  - 25
+  - 26
+  - 27
+  dependencies:
+  - 1_129_1280_720_rank3_DIT_g6917252627
+  - 2_53_1280_720_rank5_VAE_g412
+  - 2_57_1280_720_rank0_VAE_g17111523282930
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 2_53_1280_720_rank5_VAE_g412

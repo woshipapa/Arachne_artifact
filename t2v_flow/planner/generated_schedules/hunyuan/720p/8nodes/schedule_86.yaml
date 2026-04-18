@@ -1,0 +1,260 @@
+tasks:
+- name: 1_117_1280_720_rank2_VAE_g012345
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 6
+- name: 1_89_1280_720_rank5_VAE_g67
+  gpus:
+  - 6
+  - 7
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 2
+- name: 1_125_1280_720_rank3_VAE_g89101112131415
+  gpus:
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 8
+- name: 1_85_1280_720_rank0_VAE_g161718192021
+  gpus:
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 6
+- name: 1_129_1280_720_rank7_VAE_g222324252627282930313233
+  gpus:
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 12
+- name: 1_125_1280_720_rank3_DIT_g89101112131415
+  gpus:
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  dependencies:
+  - 1_125_1280_720_rank3_VAE_g89101112131415
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 1_125_1280_720_rank3_VAE_g89101112131415
+- name: 2_61_1280_720_rank1_VAE_g343536373839
+  gpus:
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 6
+- name: 1_129_1280_720_rank7_DIT_g222324252627282930313233
+  gpus:
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  dependencies:
+  - 1_129_1280_720_rank7_VAE_g222324252627282930313233
+  args:
+    task_type: DIT
+    sp: 12
+    data_source_task: 1_129_1280_720_rank7_VAE_g222324252627282930313233
+- name: 1_129_1280_720_rank6_VAE_g404142434445
+  gpus:
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 6
+- name: 1_129_1280_720_rank6_DIT_g404142434445464748495051
+  gpus:
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  dependencies:
+  - 1_129_1280_720_rank6_VAE_g404142434445
+  args:
+    task_type: DIT
+    sp: 12
+    data_source_task: 1_129_1280_720_rank6_VAE_g404142434445
+- name: 1_117_1280_720_rank2_DIT_g012345525354555657
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 52
+  - 53
+  - 54
+  - 55
+  - 56
+  - 57
+  dependencies:
+  - 1_117_1280_720_rank2_VAE_g012345
+  args:
+    task_type: DIT
+    sp: 12
+    data_source_task: 1_117_1280_720_rank2_VAE_g012345
+- name: 1_89_1280_720_rank5_DIT_g6758596061
+  gpus:
+  - 6
+  - 7
+  - 58
+  - 59
+  - 60
+  - 61
+  dependencies:
+  - 1_89_1280_720_rank5_VAE_g67
+  args:
+    task_type: DIT
+    sp: 6
+    data_source_task: 1_89_1280_720_rank5_VAE_g67
+- name: 1_85_1280_720_rank0_DIT_g161718192021
+  gpus:
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  dependencies:
+  - 1_85_1280_720_rank0_VAE_g161718192021
+  args:
+    task_type: DIT
+    sp: 6
+    data_source_task: 1_85_1280_720_rank0_VAE_g161718192021
+- name: 2_57_1280_720_rank4_VAE_g3435363738396263
+  gpus:
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 62
+  - 63
+  dependencies:
+  - 2_61_1280_720_rank1_VAE_g343536373839
+  args:
+    task_type: VAE
+    sp: 8
+- name: 2_61_1280_720_rank1_DIT_g3435363738396263
+  gpus:
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 62
+  - 63
+  dependencies:
+  - 2_57_1280_720_rank4_VAE_g3435363738396263
+  - 2_61_1280_720_rank1_VAE_g343536373839
+  args:
+    task_type: DIT
+    sp: 8
+    data_source_task: 2_61_1280_720_rank1_VAE_g343536373839
+- name: 2_57_1280_720_rank4_DIT_g012345161718192021343536373839525354556263
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 52
+  - 53
+  - 54
+  - 55
+  - 62
+  - 63
+  dependencies:
+  - 1_117_1280_720_rank2_DIT_g012345525354555657
+  - 1_85_1280_720_rank0_DIT_g161718192021
+  - 2_57_1280_720_rank4_VAE_g3435363738396263
+  - 2_61_1280_720_rank1_DIT_g3435363738396263
+  args:
+    task_type: DIT
+    sp: 24
+    data_source_task: 2_57_1280_720_rank4_VAE_g3435363738396263

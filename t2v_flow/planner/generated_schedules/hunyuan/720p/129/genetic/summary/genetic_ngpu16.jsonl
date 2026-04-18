@@ -1,0 +1,8 @@
+{"timestamp": "2025-12-30T21:34:14", "iteration": 0, "schedule_type": "genetic", "n_gpus": 16, "machine_size": 8, "makespan": 33.75027897970645, "plan_time_sec": 18.230921983718872, "yaml_path": "/root/schedule_0.yaml"}
+{"timestamp": "2025-12-30T21:34:17", "iteration": 1, "schedule_type": "genetic", "n_gpus": 16, "machine_size": 8, "makespan": 29.11411566911459, "plan_time_sec": 1.120673418045044, "yaml_path": "/root/schedule_1.yaml"}
+{"timestamp": "2025-12-30T21:34:20", "iteration": 2, "schedule_type": "genetic", "n_gpus": 16, "machine_size": 8, "makespan": 28.423863089547567, "plan_time_sec": 1.1215324401855469, "yaml_path": "/root/schedule_2.yaml"}
+{"timestamp": "2025-12-30T21:34:23", "iteration": 3, "schedule_type": "genetic", "n_gpus": 16, "machine_size": 8, "makespan": 31.58366270625323, "plan_time_sec": 1.1830182075500488, "yaml_path": "/root/schedule_3.yaml"}
+{"timestamp": "2025-12-30T21:34:26", "iteration": 4, "schedule_type": "genetic", "n_gpus": 16, "machine_size": 8, "makespan": 27.200306087132034, "plan_time_sec": 1.1080358028411865, "yaml_path": "/root/schedule_4.yaml"}
+{"timestamp": "2025-12-30T21:34:29", "iteration": 5, "schedule_type": "genetic", "n_gpus": 16, "machine_size": 8, "makespan": 26.960519501041784, "plan_time_sec": 1.1107287406921387, "yaml_path": "/root/schedule_5.yaml"}
+{"timestamp": "2025-12-30T21:34:32", "iteration": 6, "schedule_type": "genetic", "n_gpus": 16, "machine_size": 8, "makespan": 29.534595687024748, "plan_time_sec": 1.095766544342041, "yaml_path": "/root/schedule_6.yaml"}
+{"timestamp": "2025-12-30T21:34:35", "iteration": 7, "schedule_type": "genetic", "n_gpus": 16, "machine_size": 8, "makespan": 27.11634118081312, "plan_time_sec": 1.0911164283752441, "yaml_path": "/root/schedule_7.yaml"}
