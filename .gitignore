@@ -35,6 +35,7 @@ events.out*
 !simulation_data/*.txt
 !t2v_flow/predictor/oom_thresholds/hunyuan/*.json
 !t2v_flow/predictor/oom_thresholds/wan/*.json
+!t2v_flow/dataset_distribution/**/*.json
 !trained_models/hunyuan/*.json
 !trained_models/wan/*.json
 !dynamic_flex_exp_log/**/*.log 
