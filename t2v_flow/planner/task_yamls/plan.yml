@@ -1,0 +1,90 @@
+# plan.yaml
+# Task plan parsed from the Gantt chart "image_3037fa.png".
+# Readable directly by the Planner class.
+
+tasks:
+# --------------------------------------------------------------------
+# Stage 1: initial tasks (no dependencies)
+# The dark grey, purple, orange and cyan tasks in the figure
+# --------------------------------------------------------------------
+- name: D_241_VAE_g01
+  gpus: [ 0, 1 ]
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 2
+    # ... other model or data parameters
+
+- name: D_221_VAE_g2345
+  gpus: [ 2, 3, 4, 5 ]
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 4
+
+- name: D_121_VAE_g6
+  gpus: [ 6 ]
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 1
+
+- name: D_97_VAE_g7
+  gpus: [ 7 ]
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 1
+
+# --------------------------------------------------------------------
+# Stage 2: depends on the purple task
+# The bright green task in the figure
+# --------------------------------------------------------------------
+- name: D_221_DiT_g2345
+  gpus: [ 2, 3, 4, 5 ]
+  dependencies:
+  - D_221_VAE_g2345
+  args:
+    task_type: DiT
+    sp: 4
+    data_source_task: "D_221_VAE_g2345"
+
+# --------------------------------------------------------------------
+# Stage 3: two parallel groups of dependent tasks
+# --------------------------------------------------------------------
+
+# The beige task in the figure
+- name: D_97_DiT_g0167
+  gpus: [ 0, 1, 6, 7 ]
+  dependencies:
+  - D_241_VAE_g01
+  - D_121_VAE_g6
+  - D_97_VAE_g7
+  args:
+    task_type: DiT
+    sp: 4
+    data_source_task: "D_97_VAE_g7" 
+
+# The brown task in the figure
+- name: D_241_DiT_g0-7
+  gpus: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+  dependencies:
+  - D_221_DiT_g2345
+  - D_97_DiT_g0167
+  args:
+    task_type: DiT
+    sp: 8
+    data_source_task: "D_241_VAE_g01"
+
+# --------------------------------------------------------------------
+# Stage 4: final global synchronisation task
+# The dark blue task in the figure
+# --------------------------------------------------------------------
+- name: D_121_DiT_g0-7
+  gpus: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+  dependencies:
+  - D_241_DiT_g0-7
+  args:
+    task_type: DiT
+    sp: 8
+    data_source_task: "D_121_VAE_g6"

@@ -1,0 +1,59 @@
+{
+    "figure_title": "End-to-End Speedup on Three-Stage Progressive Training",
+    "aesthetics": {
+        "system_order": [
+            "Megatron-LM",
+            "DeepSpeed",
+            "Arachne"
+        ],
+        "color_map": {
+            "Megatron-LM": "#4682B4",
+            "DeepSpeed": "#8FBC8F",
+            "Arachne": "#C00000"
+        },
+        "hatch_map": {
+            "Megatron-LM": "///",
+            "DeepSpeed": "...",
+            "Arachne": "xxx"
+        },
+        "primary_baseline": "Megatron-LM"
+    },
+    "figure_data": [
+        {
+            "subplot_title": "Stage 1",
+            "bar_heights": {
+                "Arachne": 1.15,
+                "DeepSpeed": 1.08,
+                "Megatron-LM": 1.0
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.15,
+                "vs_deepspeed": 1.11
+            }
+        },
+        {
+            "subplot_title": "Stage 2",
+            "bar_heights": {
+                "Megatron-LM": 1.0,
+                "Arachne": 1.4920109661585708,
+                "DeepSpeed": 1.0464910481458003
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.4920109661585708,
+                "vs_deepspeed": 1.425727404741927
+            }
+        },
+        {
+            "subplot_title": "Stage 3",
+            "bar_heights": {
+                "Megatron-LM": 1.0,
+                "Arachne": 1.242014610401744,
+                "DeepSpeed": 1.00571414947097
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.242014610401744,
+                "vs_deepspeed": 1.2349578765050426
+            }
+        }
+    ]
+}

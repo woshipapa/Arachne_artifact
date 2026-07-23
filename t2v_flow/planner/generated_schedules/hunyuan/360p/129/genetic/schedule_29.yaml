@@ -1,0 +1,91 @@
+tasks:
+- name: 4_129_352_656_rank0_VAE_g567121314
+  gpus:
+  - 5
+  - 6
+  - 7
+  - 12
+  - 13
+  - 14
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 6
+- name: 4_129_352_656_rank4_VAE_g0128910
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 8
+  - 9
+  - 10
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 6
+- name: 4_129_352_656_rank0_DIT_g567121314
+  gpus:
+  - 5
+  - 6
+  - 7
+  - 12
+  - 13
+  - 14
+  dependencies:
+  - 4_129_352_656_rank0_VAE_g567121314
+  args:
+    task_type: DIT
+    sp: 6
+    data_source_task: 4_129_352_656_rank0_VAE_g567121314
+- name: 4_129_352_656_rank4_DIT_g0128910
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 8
+  - 9
+  - 10
+  dependencies:
+  - 4_129_352_656_rank4_VAE_g0128910
+  args:
+    task_type: DIT
+    sp: 6
+    data_source_task: 4_129_352_656_rank4_VAE_g0128910
+- name: 6_33_352_656_rank2_VAE_g311
+  gpus:
+  - 3
+  - 11
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 2
+- name: 6_37_352_656_rank6_VAE_g4
+  gpus:
+  - 4
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 1
+- name: 6_33_352_656_rank2_DIT_g311
+  gpus:
+  - 3
+  - 11
+  dependencies:
+  - 6_33_352_656_rank2_VAE_g311
+  args:
+    task_type: DIT
+    sp: 2
+    data_source_task: 6_33_352_656_rank2_VAE_g311
+- name: 6_37_352_656_rank6_DIT_g341115
+  gpus:
+  - 3
+  - 4
+  - 11
+  - 15
+  dependencies:
+  - 6_33_352_656_rank2_DIT_g311
+  - 6_37_352_656_rank6_VAE_g4
+  args:
+    task_type: DIT
+    sp: 4
+    data_source_task: 6_37_352_656_rank6_VAE_g4

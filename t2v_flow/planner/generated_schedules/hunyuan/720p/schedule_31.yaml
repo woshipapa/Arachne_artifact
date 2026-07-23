@@ -1,0 +1,41 @@
+tasks:
+- name: 1_113_1280_720_rank0_MODEL_EXECUTION_g012345
+  gpus:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  dependencies: []
+  args:
+    task_type: MODEL_EXECUTION
+    sp: 6
+- name: 1_129_1280_720_rank2_MODEL_EXECUTION_g67891011
+  gpus:
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  dependencies: []
+  args:
+    task_type: MODEL_EXECUTION
+    sp: 6
+- name: 1_41_1280_720_rank4_MODEL_EXECUTION_g1213
+  gpus:
+  - 12
+  - 13
+  dependencies: []
+  args:
+    task_type: MODEL_EXECUTION
+    sp: 2
+- name: 1_57_1280_720_rank6_MODEL_EXECUTION_g1415
+  gpus:
+  - 14
+  - 15
+  dependencies: []
+  args:
+    task_type: MODEL_EXECUTION
+    sp: 2

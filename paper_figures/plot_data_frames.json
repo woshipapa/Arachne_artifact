@@ -1,0 +1,59 @@
+{
+    "figure_title": "Speedup Across Max Frame Windows (Hunyuan-13B at 720p)",
+    "aesthetics": {
+        "system_order": [
+            "Megatron-LM",
+            "DeepSpeed",
+            "Arachne"
+        ],
+        "color_map": {
+            "Megatron-LM": "#4682B4",
+            "DeepSpeed": "#8FBC8F",
+            "Arachne": "#C00000"
+        },
+        "hatch_map": {
+            "Megatron-LM": "///",
+            "DeepSpeed": "...",
+            "Arachne": "xxx"
+        },
+        "primary_baseline": "Megatron-LM"
+    },
+    "figure_data": [
+        {
+            "subplot_title": "Frames=53",
+            "bar_heights": {
+                "Arachne": 1.22,
+                "DeepSpeed": 1.1,
+                "Megatron-LM": 1.0
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.22,
+                "vs_deepspeed": 1.109090909090909
+            }
+        },
+        {
+            "subplot_title": "Frames=81",
+            "bar_heights": {
+                "Megatron-LM": 1.0,
+                "Arachne": 1.4920109661585708,
+                "DeepSpeed": 1.0464910481458003
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.4920109661585708,
+                "vs_deepspeed": 1.425727404741927
+            }
+        },
+        {
+            "subplot_title": "Frames=129",
+            "bar_heights": {
+                "Megatron-LM": 1.0,
+                "Arachne": 1.4920109661585708,
+                "DeepSpeed": 1.0464910481458003
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.4920109661585708,
+                "vs_deepspeed": 1.425727404741927
+            }
+        }
+    ]
+}

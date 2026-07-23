@@ -1,0 +1,59 @@
+{
+    "figure_title": "Speedup Across Model Sizes (at 720p)",
+    "aesthetics": {
+        "system_order": [
+            "Megatron-LM",
+            "DeepSpeed",
+            "Arachne"
+        ],
+        "color_map": {
+            "Megatron-LM": "#4682B4",
+            "DeepSpeed": "#8FBC8F",
+            "Arachne": "#C00000"
+        },
+        "hatch_map": {
+            "Megatron-LM": "///",
+            "DeepSpeed": "...",
+            "Arachne": "xxx"
+        },
+        "primary_baseline": "Megatron-LM"
+    },
+    "figure_data": [
+        {
+            "subplot_title": "Wan-1.3B",
+            "bar_heights": {
+                "Megatron-LM": 1.0,
+                "Arachne": 1.2689696151205074,
+                "DeepSpeed": 1.0199661535030469
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.2689696151205074,
+                "vs_deepspeed": 1.244129141699717
+            }
+        },
+        {
+            "subplot_title": "CogVideoX-5B",
+            "bar_heights": {
+                "Megatron-LM": 1.0,
+                "Arachne": 1.363695048066954,
+                "DeepSpeed": 1.0055971443794995
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.363695048066954,
+                "vs_deepspeed": 1.35
+            }
+        },
+        {
+            "subplot_title": "HunyuanVideo-13B",
+            "bar_heights": {
+                "Megatron-LM": 1.0,
+                "Arachne": 1.4920109661585708,
+                "DeepSpeed": 1.0464910481458003
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.4920109661585708,
+                "vs_deepspeed": 1.425727404741927
+            }
+        }
+    ]
+}

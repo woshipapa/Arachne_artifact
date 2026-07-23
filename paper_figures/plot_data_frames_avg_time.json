@@ -1,0 +1,66 @@
+{
+    "figure_title": "Performance Across Max Frame Windows (Hunyuan-13B at 720p)",
+    "aesthetics": {
+        "system_order": [
+            "Megatron-LM",
+            "DeepSpeed",
+            "FlexSP",
+            "Arachne"
+        ],
+        "color_map": {
+            "Megatron-LM": "#7f8c8d",
+            "DeepSpeed": "#4e79a7",
+            "FlexSP": "#59a14f",
+            "Arachne": "#e0802c"
+        },
+        "hatch_map": {
+            "Megatron-LM": "/",
+            "DeepSpeed": "..",
+            "FlexSP": "||",
+            "Arachne": null
+        },
+        "primary_baseline": "Megatron-LM"
+    },
+    "figure_data": [
+        {
+            "subplot_title": "Frames=53",
+            "bar_heights_actual_times": {
+                "Arachne": 27.78242432432432,
+                "Megatron-LM": 33.71853513513513,
+                "DeepSpeed": 33.06988648648648,
+                "FlexSP": 31.438245945945944
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.2364985992468835,
+                "vs_deepspeed": 1.2121185454991428,
+                "vs_flexsp": 1.14393236512872
+            }
+        },
+        {
+            "subplot_title": "Frames=81",
+            "bar_heights_actual_times": {
+                "Arachne": 29.235430612244905,
+                "Megatron-LM": 36.59328571428571,
+                "DeepSpeed": 36.16471428571428,
+                "FlexSP": 34.61812244897959
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.261718530022816,
+                "vs_deepspeed": 1.247730586685574,
+                "vs_flexsp": 1.1918774696951127
+            }
+        },
+        {
+            "subplot_title": "Frames=129",
+            "bar_heights_actual_times": {
+                "Arachne": 34.62513333333333,
+                "Megatron-LM": 43.906974999999996,
+                "FlexSP": 48.76047916666666
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.293681173312959,
+                "vs_flexsp": 1.4393675661921659
+            }
+        }
+    ]
+}

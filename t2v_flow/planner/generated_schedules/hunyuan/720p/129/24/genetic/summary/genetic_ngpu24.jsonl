@@ -1,0 +1,1 @@
+{"timestamp": "2026-01-03T13:40:40", "iteration": 0, "schedule_type": "genetic", "n_gpus": 24, "machine_size": 8, "makespan": 43.388134038378766, "plan_time_sec": 30.69298815727234, "yaml_path": "/root/schedule_0.yaml"}

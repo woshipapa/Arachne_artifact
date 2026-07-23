@@ -1,0 +1,1 @@
+from .transformer_hunyuan_video import HunyuanVideoTransformer3DModel

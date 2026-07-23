@@ -1,0 +1,68 @@
+{
+    "figure_title": "Performance Across Model Sizes (at 720p)",
+    "aesthetics": {
+        "system_order": [
+            "Megatron-LM",
+            "DeepSpeed",
+            "FlexSP",
+            "Arachne"
+        ],
+        "color_map": {
+            "Megatron-LM": "#7f8c8d",
+            "DeepSpeed": "#4e79a7",
+            "FlexSP": "#59a14f",
+            "Arachne": "#e0802c"
+        },
+        "hatch_map": {
+            "Megatron-LM": "/",
+            "DeepSpeed": "..",
+            "FlexSP": "||",
+            "Arachne": null
+        },
+        "primary_baseline": "Megatron-LM"
+    },
+    "figure_data": [
+        {
+            "subplot_title": "Wan-1.3B",
+            "bar_heights_actual_times": {
+                "Arachne": 28.572858,
+                "Megatron-LM": 38.61644999999999,
+                "DeepSpeed": 37.982040000000005,
+                "FlexSP": 31.659066
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.401543445028803,
+                "vs_deepspeed": 1.4095983532083096,
+                "vs_flexsp": 1.1185015927089343
+            }
+        },
+        {
+            "subplot_title": "CogVideoX-5B",
+            "bar_heights_actual_times": {
+                "Arachne": 90.93409375,
+                "Megatron-LM": 127.56800208333334,
+                "DeepSpeed": 126.21473541666667,
+                "FlexSP": 110.16601666666668
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.4514299646558222,
+                "vs_deepspeed": 1.4404765203733223,
+                "vs_flexsp": 1.2206179466170115
+            }
+        },
+        {
+            "subplot_title": "Hunyuan-13B",
+            "bar_heights_actual_times": {
+                "Arachne": 32.95750980392157,
+                "Megatron-LM": 47.23941568627451,
+                "DeepSpeed": 46.25131764705882,
+                "FlexSP": 41.58916274509804
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.429350522426839,
+                "vs_deepspeed": 1.4161010732049664,
+                "vs_flexsp": 1.2722478252243763
+            }
+        }
+    ]
+}

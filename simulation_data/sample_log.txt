@@ -1,0 +1,3 @@
+==================== Iteration 15 ====================
+[Iter 15 | Rank 0] Shapes: {'images': torch.Size([1, 57, 3, 1936, 1072]), 'first_ref_image': torch.Size([1, 1, 3, 1936, 1072]), 'prompt_embeds': torch.Size([1, 126, 4096]), 'clip_text_embed': torch.Size([1, 768])}
+[Iter 15 | Rank 1] Shapes: {'images': torch.Size([1, 57, 3, 1936, 1072]), 'first_ref_image': torch.Size([1, 1, 3, 1936, 1072]), 'prompt_embeds': torch.Size([1, 126, 4096]), 'clip_text_embed': torch.Size([1, 768])}

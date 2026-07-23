@@ -1,0 +1,68 @@
+{
+    "figure_title": "End-to-End Performance on Three-Stage Progressive Training",
+    "aesthetics": {
+        "system_order": [
+            "Megatron-LM",
+            "DeepSpeed",
+            "FlexSP",
+            "Arachne"
+        ],
+        "color_map": {
+            "Megatron-LM": "#7f8c8d",
+            "DeepSpeed": "#4e79a7",
+            "FlexSP": "#59a14f",
+            "Arachne": "#e0802c"
+        },
+        "hatch_map": {
+            "Megatron-LM": "/",
+            "DeepSpeed": "..",
+            "FlexSP": "||",
+            "Arachne": null
+        },
+        "primary_baseline": "Megatron-LM"
+    },
+    "figure_data": [
+        {
+            "subplot_title": "Stage 1 (Dataset=WebVid, Resolution=360p)",
+            "bar_heights_actual_times": {
+                "Arachne": 22.06563888888889,
+                "Megatron-LM": 25.295322222222218,
+                "DeepSpeed": 24.139944444444446,
+                "FlexSP": 23.826847222222224
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.1757172627649808,
+                "vs_deepspeed": 1.1252483580994035,
+                "vs_flexsp": 1.0926048559738017
+            }
+        },
+        {
+            "subplot_title": "Stage 2 (Dataset=Koala, Resolution=720p)",
+            "bar_heights_actual_times": {
+                "Arachne": 32.95750980392157,
+                "Megatron-LM": 47.23941568627451,
+                "DeepSpeed": 46.25131764705882,
+                "FlexSP": 41.58916274509804
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.429350522426839,
+                "vs_deepspeed": 1.4161010732049664,
+                "vs_flexsp": 1.2722478252243763
+            }
+        },
+        {
+            "subplot_title": "Stage 3 (Dataset=Lynx, Resolution=1080p)",
+            "bar_heights_actual_times": {
+                "Arachne": 26.804254545454548,
+                "Megatron-LM": 44.28615151515151,
+                "DeepSpeed": 42.956648484848486,
+                "FlexSP": 36.8473090909091
+            },
+            "arachne_annotations": {
+                "vs_megatron": 1.6510711297943275,
+                "vs_deepspeed": 1.591116565177059,
+                "vs_flexsp": 1.3547174055589366
+            }
+        }
+    ]
+}

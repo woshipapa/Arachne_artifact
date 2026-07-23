@@ -1,0 +1,53 @@
+iteration 0 : 478
+iteration 1 : 365
+iteration 2 : 364
+iteration 3 : 380
+iteration 4 : 296
+iteration 5 : 256
+iteration 6 : 312
+iteration 7 : 380
+iteration 8 : 272
+iteration 9 : 376
+iteration 10 : 236
+iteration 11 : 264
+iteration 12 : 224
+iteration 13 : 284
+iteration 14 : 356
+iteration 15 : 284
+iteration 16 : 292
+iteration 17 : 272
+iteration 18 : 408
+iteration 19 : 384
+iteration 20 : 340
+iteration 21 : 304
+iteration 22 : 380
+iteration 23 : 320
+iteration 24 : 312
+iteration 25 : 352
+iteration 26 : 220
+iteration 27 : 360
+iteration 28 : 268
+iteration 29 : 276
+iteration 30 : 296
+iteration 31 : 340
+iteration 32: 462
+iteration 33: 438
+iteration 34: 421
+iteration 35: 462
+iteration 36: 437
+iteration 37: 480
+iteration 38: 479
+iteration 39: 425
+iteration 40: 474
+iteration 41: 462
+iteration 42: 521
+iteration 43: 484
+iteration 44: 497
+iteration 45: 481
+iteration 46: 440
+iteration 47: 463
+iteration 48: 484
+iteration 49: 451
+iteration 50: 457
+iteration 51: 441
+iteration 52: 454

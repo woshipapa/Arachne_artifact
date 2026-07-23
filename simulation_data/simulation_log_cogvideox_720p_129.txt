@@ -1,0 +1,832 @@
+
+==================== Iteration 0 ====================
+[Iter 0 | Rank 0] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 0 | Rank 1] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 194, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 0 | Rank 2] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 238, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 0 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 185, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 0 | Rank 4] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 0 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 0 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 0 | Rank 7] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 1 ====================
+[Iter 1 | Rank 0] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 241, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 1 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 173, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 1 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 1 | Rank 3] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 186, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 1 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 1 | Rank 5] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 127, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 1 | Rank 6] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 1 | Rank 7] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 120, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 2 ====================
+[Iter 2 | Rank 0] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 195, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 2 | Rank 1] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 2 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 2 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 2 | Rank 4] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 151, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 2 | Rank 5] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 218, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 2 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 2 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 3 ====================
+[Iter 3 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 3 | Rank 1] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 3 | Rank 2] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 3 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 3 | Rank 4] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 3 | Rank 5] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 3 | Rank 6] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 132, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 3 | Rank 7] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 4 ====================
+[Iter 4 | Rank 0] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 230, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 4 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 220, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 4 | Rank 2] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 204, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 4 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 205, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 4 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 212, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 4 | Rank 5] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 215, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 4 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 160, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 4 | Rank 7] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 182, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 5 ====================
+[Iter 5 | Rank 0] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 191, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 5 | Rank 1] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 162, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 5 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 199, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 5 | Rank 3] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 151, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 5 | Rank 4] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 220, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 5 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 250, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 5 | Rank 6] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 136, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 5 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 246, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 6 ====================
+[Iter 6 | Rank 0] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 126, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 6 | Rank 1] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 209, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 6 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 241, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 6 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 256, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 6 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 218, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 6 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 128, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 6 | Rank 6] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 221, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 6 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 139, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 7 ====================
+[Iter 7 | Rank 0] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 224, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 7 | Rank 1] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 208, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 7 | Rank 2] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 184, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 7 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 185, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 7 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 126, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 7 | Rank 5] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 144, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 7 | Rank 6] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 193, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 7 | Rank 7] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 177, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 8 ====================
+[Iter 8 | Rank 0] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 196, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 8 | Rank 1] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 187, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 8 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 156, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 8 | Rank 3] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 125, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 8 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 215, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 8 | Rank 5] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 106, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 8 | Rank 6] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 186, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 8 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 227, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 9 ====================
+[Iter 9 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 203, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 9 | Rank 1] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 209, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 9 | Rank 2] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 9 | Rank 3] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 9 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 241, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 9 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 209, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 9 | Rank 6] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 180, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 9 | Rank 7] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 110, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 10 ====================
+[Iter 10 | Rank 0] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 10 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 10 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 10 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 10 | Rank 4] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 10 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 10 | Rank 6] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 10 | Rank 7] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 11 ====================
+[Iter 11 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 217, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 11 | Rank 1] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 223, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 11 | Rank 2] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 249, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 11 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 11 | Rank 4] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 11 | Rank 5] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 217, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 11 | Rank 6] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 211, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 11 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 215, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 12 ====================
+[Iter 12 | Rank 0] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 135, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 12 | Rank 1] Shapes: {'images': torch.Size([3, 41, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 204, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 12 | Rank 2] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 171, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 12 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 96, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 12 | Rank 4] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 12 | Rank 5] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 12 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 12 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 217, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 13 ====================
+[Iter 13 | Rank 0] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 193, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 13 | Rank 1] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 204, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 13 | Rank 2] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 219, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 13 | Rank 3] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 226, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 13 | Rank 4] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 13 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 157, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 13 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 228, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 13 | Rank 7] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 132, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 14 ====================
+[Iter 14 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 14 | Rank 1] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 200, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 14 | Rank 2] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 154, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 14 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 14 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 14 | Rank 5] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 125, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 14 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 137, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 14 | Rank 7] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 15 ====================
+[Iter 15 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 228, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 15 | Rank 1] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 197, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 15 | Rank 2] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 15 | Rank 3] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 15 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 217, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 15 | Rank 5] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 216, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 15 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 166, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 15 | Rank 7] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 203, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 16 ====================
+[Iter 16 | Rank 0] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 16 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 160, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 16 | Rank 2] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 16 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 227, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 16 | Rank 4] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 16 | Rank 5] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 105, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 16 | Rank 6] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 16 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 207, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 17 ====================
+[Iter 17 | Rank 0] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 207, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 17 | Rank 1] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 17 | Rank 2] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 188, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 17 | Rank 3] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 184, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 17 | Rank 4] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 180, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 17 | Rank 5] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 17 | Rank 6] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 17 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 18 ====================
+[Iter 18 | Rank 0] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 232, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 18 | Rank 1] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 235, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 18 | Rank 2] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 189, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 18 | Rank 3] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 133, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 18 | Rank 4] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 132, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 18 | Rank 5] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 253, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 18 | Rank 6] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 184, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 18 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 206, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 19 ====================
+[Iter 19 | Rank 0] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 183, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 19 | Rank 1] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 218, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 19 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 173, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 19 | Rank 3] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 225, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 19 | Rank 4] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 121, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 19 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 151, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 19 | Rank 6] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 226, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 19 | Rank 7] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 228, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 20 ====================
+[Iter 20 | Rank 0] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 248, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 20 | Rank 1] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 204, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 20 | Rank 2] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 232, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 20 | Rank 3] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 20 | Rank 4] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 181, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 20 | Rank 5] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 151, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 20 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 120, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 20 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 213, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 21 ====================
+[Iter 21 | Rank 0] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 21 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 21 | Rank 2] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 21 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 199, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 21 | Rank 4] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 21 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 21 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 228, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 21 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 22 ====================
+[Iter 22 | Rank 0] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 231, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 22 | Rank 1] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 22 | Rank 2] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 22 | Rank 3] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 22 | Rank 4] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 240, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 22 | Rank 5] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 247, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 22 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 22 | Rank 7] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 203, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 23 ====================
+[Iter 23 | Rank 0] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 231, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 23 | Rank 1] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 210, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 23 | Rank 2] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 23 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 23 | Rank 4] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 23 | Rank 5] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 231, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 23 | Rank 6] Shapes: {'images': torch.Size([4, 125, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 23 | Rank 7] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 24 ====================
+[Iter 24 | Rank 0] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 24 | Rank 1] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 173, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 24 | Rank 2] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 203, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 24 | Rank 3] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 182, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 24 | Rank 4] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 24 | Rank 5] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 24 | Rank 6] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 24 | Rank 7] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 189, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 25 ====================
+[Iter 25 | Rank 0] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 241, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 25 | Rank 1] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 207, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 25 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 132, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 25 | Rank 3] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 200, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 25 | Rank 4] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 235, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 25 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 196, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 25 | Rank 6] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 168, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 25 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 244, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 26 ====================
+[Iter 26 | Rank 0] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 26 | Rank 1] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 122, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 26 | Rank 2] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 165, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 26 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 190, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 26 | Rank 4] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 176, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 26 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 200, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 26 | Rank 6] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 26 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 248, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 27 ====================
+[Iter 27 | Rank 0] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 117, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 27 | Rank 1] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 171, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 27 | Rank 2] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 107, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 27 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 238, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 27 | Rank 4] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 230, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 27 | Rank 5] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 121, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 27 | Rank 6] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 191, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 27 | Rank 7] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 219, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 28 ====================
+[Iter 28 | Rank 0] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 112, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 28 | Rank 1] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 28 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 202, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 28 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 123, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 28 | Rank 4] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 249, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 28 | Rank 5] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 215, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 28 | Rank 6] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 222, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 28 | Rank 7] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 213, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 29 ====================
+[Iter 29 | Rank 0] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 170, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 29 | Rank 1] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 224, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 29 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 230, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 29 | Rank 3] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 234, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 29 | Rank 4] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 247, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 29 | Rank 5] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 213, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 29 | Rank 6] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 129, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 29 | Rank 7] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 148, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 30 ====================
+[Iter 30 | Rank 0] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 125, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 30 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 157, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 30 | Rank 2] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 166, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 30 | Rank 3] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 132, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 30 | Rank 4] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 180, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 30 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 192, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 30 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 125, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 30 | Rank 7] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 31 ====================
+[Iter 31 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 147, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 31 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 224, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 31 | Rank 2] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 217, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 31 | Rank 3] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 107, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 31 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 164, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 31 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 163, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 31 | Rank 6] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 31 | Rank 7] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 231, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 32 ====================
+[Iter 32 | Rank 0] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 166, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 32 | Rank 1] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 185, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 32 | Rank 2] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 32 | Rank 3] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 225, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 32 | Rank 4] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 32 | Rank 5] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 146, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 32 | Rank 6] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 218, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 32 | Rank 7] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 148, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 33 ====================
+[Iter 33 | Rank 0] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 194, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 33 | Rank 1] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 219, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 33 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 162, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 33 | Rank 3] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 219, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 33 | Rank 4] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 125, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 33 | Rank 5] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 156, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 33 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 206, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 33 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 118, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 34 ====================
+[Iter 34 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 153, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 34 | Rank 1] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 242, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 34 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 177, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 34 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 120, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 34 | Rank 4] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 233, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 34 | Rank 5] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 227, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 34 | Rank 6] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 202, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 34 | Rank 7] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 129, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 35 ====================
+[Iter 35 | Rank 0] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 236, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 35 | Rank 1] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 111, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 35 | Rank 2] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 35 | Rank 3] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 35 | Rank 4] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 184, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 35 | Rank 5] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 124, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 35 | Rank 6] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 189, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 35 | Rank 7] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 152, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 36 ====================
+[Iter 36 | Rank 0] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 203, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 36 | Rank 1] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 225, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 36 | Rank 2] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 215, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 36 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 36 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 36 | Rank 5] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 214, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 36 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 245, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 36 | Rank 7] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 37 ====================
+[Iter 37 | Rank 0] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 37 | Rank 1] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 37 | Rank 2] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 191, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 37 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 178, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 37 | Rank 4] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 225, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 37 | Rank 5] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 37 | Rank 6] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 37 | Rank 7] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 237, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 38 ====================
+[Iter 38 | Rank 0] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 244, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 38 | Rank 1] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 38 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 38 | Rank 3] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 38 | Rank 4] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 147, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 38 | Rank 5] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 168, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 38 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 117, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 38 | Rank 7] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 246, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 39 ====================
+[Iter 39 | Rank 0] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 137, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 39 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 39 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 39 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 119, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 39 | Rank 4] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 39 | Rank 5] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 39 | Rank 6] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 39 | Rank 7] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 40 ====================
+[Iter 40 | Rank 0] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 40 | Rank 1] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 210, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 40 | Rank 2] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 246, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 40 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 207, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 40 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 233, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 40 | Rank 5] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 107, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 40 | Rank 6] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 164, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 40 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 41 ====================
+[Iter 41 | Rank 0] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 230, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 41 | Rank 1] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 175, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 41 | Rank 2] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 200, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 41 | Rank 3] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 41 | Rank 4] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 219, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 41 | Rank 5] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 215, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 41 | Rank 6] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 185, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 41 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 143, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 42 ====================
+[Iter 42 | Rank 0] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 153, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 42 | Rank 1] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 42 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 42 | Rank 3] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 231, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 42 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 42 | Rank 5] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 42 | Rank 6] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 42 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 214, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 43 ====================
+[Iter 43 | Rank 0] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 237, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 43 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 43 | Rank 2] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 43 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 43 | Rank 4] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 207, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 43 | Rank 5] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 43 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 187, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 43 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 94, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 44 ====================
+[Iter 44 | Rank 0] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 44 | Rank 1] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 228, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 44 | Rank 2] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 121, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 44 | Rank 3] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 159, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 44 | Rank 4] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 146, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 44 | Rank 5] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 239, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 44 | Rank 6] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 239, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 44 | Rank 7] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 236, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 45 ====================
+[Iter 45 | Rank 0] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 198, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 45 | Rank 1] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 224, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 45 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 214, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 45 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 228, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 45 | Rank 4] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 129, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 45 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 45 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 45 | Rank 7] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 101, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 46 ====================
+[Iter 46 | Rank 0] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 46 | Rank 1] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 46 | Rank 2] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 123, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 46 | Rank 3] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 207, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 46 | Rank 4] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 179, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 46 | Rank 5] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 108, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 46 | Rank 6] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 166, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 46 | Rank 7] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 218, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 47 ====================
+[Iter 47 | Rank 0] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 187, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 47 | Rank 1] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 236, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 47 | Rank 2] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 47 | Rank 3] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 47 | Rank 4] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 115, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 47 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 233, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 47 | Rank 6] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 211, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 47 | Rank 7] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 201, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 48 ====================
+[Iter 48 | Rank 0] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 137, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 48 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 166, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 48 | Rank 2] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 173, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 48 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 109, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 48 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 48 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 48 | Rank 6] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 48 | Rank 7] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 202, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 49 ====================
+[Iter 49 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 228, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 49 | Rank 1] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 49 | Rank 2] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 189, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 49 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 224, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 49 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 246, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 49 | Rank 5] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 200, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 49 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 216, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 49 | Rank 7] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 212, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 50 ====================
+[Iter 50 | Rank 0] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 124, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 50 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 213, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 50 | Rank 2] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 50 | Rank 3] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 158, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 50 | Rank 4] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 99, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 50 | Rank 5] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 227, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 50 | Rank 6] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 224, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 50 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 51 ====================
+[Iter 51 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 127, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 51 | Rank 1] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 190, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 51 | Rank 2] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 51 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 51 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 160, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 51 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 51 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 51 | Rank 7] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 196, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 52 ====================
+[Iter 52 | Rank 0] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 52 | Rank 1] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 52 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 218, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 52 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 181, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 52 | Rank 4] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 52 | Rank 5] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 199, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 52 | Rank 6] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 52 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 220, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 53 ====================
+[Iter 53 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 160, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 53 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 199, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 53 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 53 | Rank 3] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 241, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 53 | Rank 4] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 213, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 53 | Rank 5] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 241, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 53 | Rank 6] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 162, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 53 | Rank 7] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 54 ====================
+[Iter 54 | Rank 0] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 213, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 54 | Rank 1] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 54 | Rank 2] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 189, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 54 | Rank 3] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 54 | Rank 4] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 54 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 54 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 54 | Rank 7] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 55 ====================
+[Iter 55 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 55 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 55 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 55 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 80, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 55 | Rank 4] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 55 | Rank 5] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 99, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 55 | Rank 6] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 55 | Rank 7] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 56 ====================
+[Iter 56 | Rank 0] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 243, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 56 | Rank 1] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 56 | Rank 2] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 185, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 56 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 56 | Rank 4] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 56 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 56 | Rank 6] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 56 | Rank 7] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 185, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 57 ====================
+[Iter 57 | Rank 0] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 57 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 57 | Rank 2] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 243, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 57 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 237, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 57 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 57 | Rank 5] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 222, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 57 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 159, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 57 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 138, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 58 ====================
+[Iter 58 | Rank 0] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 184, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 58 | Rank 1] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 238, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 58 | Rank 2] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 58 | Rank 3] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 93, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 58 | Rank 4] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 213, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 58 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 189, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 58 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 58 | Rank 7] Shapes: {'images': torch.Size([4, 125, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 59 ====================
+[Iter 59 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 188, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 59 | Rank 1] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 228, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 59 | Rank 2] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 59 | Rank 3] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 175, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 59 | Rank 4] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 225, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 59 | Rank 5] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 59 | Rank 6] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 185, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 59 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 233, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 60 ====================
+[Iter 60 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 225, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 60 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 130, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 60 | Rank 2] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 60 | Rank 3] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 60 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 115, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 60 | Rank 5] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 236, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 60 | Rank 6] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 221, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 60 | Rank 7] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 61 ====================
+[Iter 61 | Rank 0] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 249, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 61 | Rank 1] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 180, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 61 | Rank 2] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 255, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 61 | Rank 3] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 61 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 138, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 61 | Rank 5] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 242, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 61 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 61 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 220, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 62 ====================
+[Iter 62 | Rank 0] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 62 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 62 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 230, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 62 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 62 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 62 | Rank 5] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 62 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 189, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 62 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 229, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 63 ====================
+[Iter 63 | Rank 0] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 63 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 216, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 63 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 233, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 63 | Rank 3] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 229, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 63 | Rank 4] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 148, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 63 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 239, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 63 | Rank 6] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 143, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 63 | Rank 7] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 64 ====================
+[Iter 64 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 201, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 64 | Rank 1] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 213, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 64 | Rank 2] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 64 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 100, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 64 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 256, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 64 | Rank 5] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 229, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 64 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 198, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 64 | Rank 7] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 92, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 65 ====================
+[Iter 65 | Rank 0] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 190, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 65 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 65 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 65 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 65 | Rank 4] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 65 | Rank 5] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 65 | Rank 6] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 65 | Rank 7] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 66 ====================
+[Iter 66 | Rank 0] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 224, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 66 | Rank 1] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 230, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 66 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 66 | Rank 3] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 66 | Rank 4] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 205, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 66 | Rank 5] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 194, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 66 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 66 | Rank 7] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 67 ====================
+[Iter 67 | Rank 0] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 67 | Rank 1] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 67 | Rank 2] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 67 | Rank 3] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 217, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 67 | Rank 4] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 180, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 67 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 67 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 67 | Rank 7] Shapes: {'images': torch.Size([4, 125, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 139, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 68 ====================
+[Iter 68 | Rank 0] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 68 | Rank 1] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 68 | Rank 2] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 68 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 68 | Rank 4] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 68 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 227, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 68 | Rank 6] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 68 | Rank 7] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 69 ====================
+[Iter 69 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 141, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 69 | Rank 1] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 250, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 69 | Rank 2] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 180, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 69 | Rank 3] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 69 | Rank 4] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 165, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 69 | Rank 5] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 69 | Rank 6] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 69 | Rank 7] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 70 ====================
+[Iter 70 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 70 | Rank 1] Shapes: {'images': torch.Size([3, 81, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 70 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 111, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 70 | Rank 3] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 70 | Rank 4] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 70 | Rank 5] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 187, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 70 | Rank 6] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 70 | Rank 7] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 98, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 71 ====================
+[Iter 71 | Rank 0] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 71 | Rank 1] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 71 | Rank 2] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 197, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 71 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 202, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 71 | Rank 4] Shapes: {'images': torch.Size([4, 125, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 217, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 71 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 71 | Rank 6] Shapes: {'images': torch.Size([4, 125, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 71 | Rank 7] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 91, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 72 ====================
+[Iter 72 | Rank 0] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 184, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 72 | Rank 1] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 239, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 72 | Rank 2] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 72 | Rank 3] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 225, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 72 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 127, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 72 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 232, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 72 | Rank 6] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 209, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 72 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 86, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 73 ====================
+[Iter 73 | Rank 0] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 256, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 73 | Rank 1] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 183, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 73 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 179, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 73 | Rank 3] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 191, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 73 | Rank 4] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 202, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 73 | Rank 5] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 125, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 73 | Rank 6] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 230, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 73 | Rank 7] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 74 ====================
+[Iter 74 | Rank 0] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 247, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 74 | Rank 1] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 177, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 74 | Rank 2] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 74 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 230, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 74 | Rank 4] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 104, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 74 | Rank 5] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 74 | Rank 6] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 74 | Rank 7] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 75 ====================
+[Iter 75 | Rank 0] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 241, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 75 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 234, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 75 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 194, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 75 | Rank 3] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 75 | Rank 4] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 222, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 75 | Rank 5] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 194, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 75 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 208, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 75 | Rank 7] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 237, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 76 ====================
+[Iter 76 | Rank 0] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 76 | Rank 1] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 200, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 76 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 76 | Rank 3] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 243, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 76 | Rank 4] Shapes: {'images': torch.Size([4, 121, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 158, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 76 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 198, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 76 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 76 | Rank 7] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 77 ====================
+[Iter 77 | Rank 0] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 140, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 77 | Rank 1] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 161, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 77 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 77 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 77 | Rank 4] Shapes: {'images': torch.Size([3, 57, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 77 | Rank 5] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 77 | Rank 6] Shapes: {'images': torch.Size([3, 61, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 171, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 77 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 78 ====================
+[Iter 78 | Rank 0] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 78 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 78 | Rank 2] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 230, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 78 | Rank 3] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 78 | Rank 4] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 189, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 78 | Rank 5] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 244, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 78 | Rank 6] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 78 | Rank 7] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 223, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 79 ====================
+[Iter 79 | Rank 0] Shapes: {'images': torch.Size([3, 53, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 141, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 79 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 79 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 79 | Rank 3] Shapes: {'images': torch.Size([3, 97, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 248, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 79 | Rank 4] Shapes: {'images': torch.Size([4, 101, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 79 | Rank 5] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 127, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 79 | Rank 6] Shapes: {'images': torch.Size([3, 65, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 233, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 79 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 80 ====================
+[Iter 80 | Rank 0] Shapes: {'images': torch.Size([4, 109, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 80 | Rank 1] Shapes: {'images': torch.Size([3, 49, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 223, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 80 | Rank 2] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 80 | Rank 3] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 220, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 80 | Rank 4] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 80 | Rank 5] Shapes: {'images': torch.Size([3, 85, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 225, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 80 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 80 | Rank 7] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+
+==================== Iteration 81 ====================
+[Iter 81 | Rank 0] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 228, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 81 | Rank 1] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 81 | Rank 2] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 81 | Rank 3] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 81 | Rank 4] Shapes: {'images': torch.Size([3, 45, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 81 | Rank 5] Shapes: {'images': torch.Size([3, 77, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 81 | Rank 6] Shapes: {'images': torch.Size([4, 113, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 81 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 82 ====================
+[Iter 82 | Rank 0] Shapes: {'images': torch.Size([4, 105, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 82 | Rank 1] Shapes: {'images': torch.Size([3, 89, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 82 | Rank 2] Shapes: {'images': torch.Size([3, 69, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 196, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 82 | Rank 3] Shapes: {'images': torch.Size([4, 117, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 219, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 82 | Rank 4] Shapes: {'images': torch.Size([3, 73, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 189, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 82 | Rank 5] Shapes: {'images': torch.Size([3, 93, 3, 1280, 720]), 'first_ref_image': torch.Size([3, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([3, 1, 4096]), 'clip_text_embed': torch.Size([3, 768])}
+[Iter 82 | Rank 6] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+[Iter 82 | Rank 7] Shapes: {'images': torch.Size([4, 129, 3, 1280, 720]), 'first_ref_image': torch.Size([4, 1, 3, 1280, 720]), 'prompt_embeds': torch.Size([4, 1, 4096]), 'clip_text_embed': torch.Size([4, 768])}
+
+==================== Iteration 83 ====================

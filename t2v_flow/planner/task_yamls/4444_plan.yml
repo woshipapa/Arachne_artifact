@@ -1,0 +1,79 @@
+tasks:
+# ====================================================================
+# Each task group uses 4 GPUs, assigned in order
+# 1. VAE stage: encoding; no dependencies.
+# 2. DIT stage: training; depends on the matching VAE task.
+# ====================================================================
+
+# --------------------------------------------------------------------
+# Task group 1: formerly D_13_720p_FULL
+# --------------------------------------------------------------------
+- name: D_13_720p_VAE_g0123  # VAE stage
+  gpus: [ 0, 1, 2, 3 ]
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 2
+    # ... other model or data parameters
+
+- name: D_13_720p_DIT_g0123  # DIT stage
+  gpus: [ 0, 1, 2, 3 ]
+  dependencies: [ "D_13_720p_VAE_g0123" ] # depends on the VAE task above
+  args:
+    task_type: DIT
+    sp: 2
+    data_source_task: "D_13_720p_VAE_g0123"  # the task supplying the data
+
+# --------------------------------------------------------------------
+# Task group 2: formerly D_129_720p_FULL
+# --------------------------------------------------------------------
+- name: D_129_720p_VAE_g4567 # VAE stage
+  gpus: [ 4, 5, 6, 7 ]
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 2
+
+- name: D_129_720p_DIT_g4567 # DIT stage
+  gpus: [ 4, 5, 6, 7 ]
+  dependencies: [ "D_129_720p_VAE_g4567" ]
+  args:
+    task_type: DIT
+    sp: 2
+    data_source_task: "D_129_720p_VAE_g4567"  # the task supplying the data
+
+# --------------------------------------------------------------------
+# Task group 3: formerly D_89_720p_FULL
+# --------------------------------------------------------------------
+- name: D_89_720p_VAE_g891011 # VAE stage
+  gpus: [ 8, 9, 10, 11 ]
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 2
+
+- name: D_89_720p_DIT_g891011 # DIT stage
+  gpus: [ 8, 9, 10, 11 ]
+  dependencies: [ "D_89_720p_VAE_g891011" ]
+  args:
+    task_type: DIT
+    sp: 2
+    data_source_task: "D_89_720p_VAE_g891011"  # the task supplying the data
+
+# --------------------------------------------------------------------
+# Task group 4: formerly D_57_FULL
+# --------------------------------------------------------------------
+- name: D_57_VAE_g12131415 # VAE stage
+  gpus: [ 12, 13, 14, 15 ]
+  dependencies: []
+  args:
+    task_type: VAE
+    sp: 2
+
+- name: D_57_DIT_g12131415 # DIT stage
+  gpus: [ 12, 13, 14, 15 ]
+  dependencies: [ "D_57_VAE_g12131415" ]
+  args:
+    task_type: DIT
+    sp: 2
+    data_source_task: "D_57_VAE_g12131415"  # the task supplying the data

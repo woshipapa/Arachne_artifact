@@ -1,0 +1,1 @@
+from .vast_transformer2 import VASTTransformerModel
