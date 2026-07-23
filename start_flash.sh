@@ -1,0 +1,9 @@
+export PYTHONUNBUFFERED=1
+export CUDA_DEVICE_MAX_CONNECTIONS=1
+export CUDA_VISIBLE_DEVICES=0
+export CUDA_LAUNCH_BLOCKING=1
+export NVTE_FUSED_ATTN=0
+export NVTE_FLASH_ATTN=1
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+
+python flash_attn.py

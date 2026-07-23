@@ -1,0 +1,1 @@
+from .wan_trainer import WanTrainer

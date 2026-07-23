@@ -1,0 +1,1 @@
+from .WanModel import WanModel, WanParams

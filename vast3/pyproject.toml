@@ -1,0 +1,3 @@
+[tool.uv]
+link-mode = "copy" 
+index-url = "http://pypi.chinatelecom.ai/simple/"

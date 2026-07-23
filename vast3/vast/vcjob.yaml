@@ -1,0 +1,151 @@
+apiVersion: batch.volcano.sh/v1alpha1
+kind: Job
+metadata:
+  name: vast-i2v-hy
+  namespace: default
+spec:
+  minAvailable: 16
+  schedulerName: volcano
+  queue: default
+  plugins:
+    pytorch: ["--port=25432"]
+    svc: ["--disable-network-policy=true"]
+  tasks:
+    - replicas: 1
+      name: master
+      template:
+        spec:
+          restartPolicy: Never
+          hostNetwork: True
+          dnsPolicy: ClusterFirstWithHostNet
+          affinity:
+            nodeAffinity:
+              requiredDuringSchedulingIgnoredDuringExecution:
+                nodeSelectorTerms:
+                  - matchExpressions:
+                      - key: period
+                        operator: In
+                        values:
+                          - festival
+          containers:
+            - name: master
+              resources:
+                requests:
+                  cpu: 112
+                  memory: 1800G
+                  nvidia.com/gpu: 8
+                  # rdma/ib: 1
+                limits:
+                  cpu: 112
+                  memory: 1800G
+                  nvidia.com/gpu: 8
+                  # rdma/ib: 1  
+              image: harbor.telecom-ai.com.cn/teleai-t2v/ncvr-torch2.5-cuda12.4:v0.2
+              imagePullPolicy: Always
+              command: ["/bin/bash"]
+              args:
+                - "-c"
+                - |
+                  export NCCL_IB_HCA=$(/root.sh) #必须有，不修改，本次升级改动
+                  echo NCCL_IB_HCA=$NCCL_IB_HCA
+                  cp -r /root/repos/teleai_data_tool_source_code /workspace/teleai_data_tool
+                  pip install -e /workspace/teleai_data_tool
+                  cd /root/Path-to-your-vast-code
+                  pip install -e .
+                  export NCCL_NVLS_ENABLE=0&&export NCCL_CROSS_NIC=0&&export NCCL_DEBUG=INFO&&export NCCL_ALGO=RING&&python tools/train.py projects/hunyuanvideo/configs/hunyuanvideo_i2vhy.py
+              securityContext:
+                privileged: True
+              ports:
+                - containerPort: 5671
+              volumeMounts:
+                - name: dshm
+                  mountPath: /dev/shm
+                - name: shared-volume
+                  mountPath: /root
+                - name: model-zoo-volume
+                  mountPath: /data01/model_zoo
+          volumes:
+            - name: dshm
+              hostPath:
+                path: /dev/shm
+                type: Directory
+            - name: shared-volume
+              hostPath:
+                path: /root
+                type: Directory
+            - name: model-zoo-volume
+              hostPath:
+                path: /data01/model_zoo
+                type: Directory
+          securityContext:
+            runAsUser: 0
+            runAsGroup: 0
+    - replicas: 15
+      name: worker
+      template:
+        spec:
+          restartPolicy: Never
+          hostNetwork: True
+          dnsPolicy: ClusterFirstWithHostNet
+          affinity:
+            nodeAffinity:
+              requiredDuringSchedulingIgnoredDuringExecution:
+                nodeSelectorTerms:
+                  - matchExpressions:
+                      - key: period
+                        operator: In
+                        values:
+                          - festival
+          containers:
+            - name: worker
+              resources:
+                requests:
+                  cpu: 112
+                  memory: 1800G
+                  nvidia.com/gpu: 8
+                  # rdma/ib: 1
+                limits:
+                  cpu: 112
+                  memory: 1800G
+                  nvidia.com/gpu: 8
+                  # rdma/ib: 1
+              image: harbor.telecom-ai.com.cn/teleai-t2v/ncvr-torch2.5-cuda12.4:v0.2
+              imagePullPolicy: Always
+              command: ["/bin/bash"]
+              args:
+                - "-c"
+                - |
+                  export NCCL_IB_HCA=$(/root.sh) #必须有，不修改，本次升级改动
+                  echo NCCL_IB_HCA=$NCCL_IB_HCA
+                  cp -r /root/repos/teleai_data_tool_source_code /workspace/teleai_data_tool
+                  pip install -e /workspace/teleai_data_tool
+                  cd /root/Path-to-your-vast-code
+                  pip install -e .
+                  export NCCL_NVLS_ENABLE=0&&export NCCL_CROSS_NIC=0&&export NCCL_DEBUG=INFO&&export NCCL_ALGO=RING&&python tools/train.py projects/hunyuanvideo/configs/hunyuanvideo_i2vhy.py
+              securityContext:
+                privileged: True
+              ports:
+                - containerPort: 5671
+              volumeMounts:
+                - name: dshm
+                  mountPath: /dev/shm
+                - name: shared-volume
+                  mountPath: /root
+                - name: model-zoo-volume
+                  mountPath: /data01/model_zoo
+          volumes:
+            - name: dshm
+              hostPath:
+                path: /dev/shm
+                type: Directory
+            - name: shared-volume
+              hostPath:
+                path: /root
+                type: Directory
+            - name: model-zoo-volume
+              hostPath:
+                path: /data01/model_zoo 
+                type: Directory
+          securityContext:
+            runAsUser: 0
+            runAsGroup: 0
