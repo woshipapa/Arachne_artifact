@@ -295,8 +295,8 @@ variables at them) before a real training run.
 # 0) confirm the machine has a GPU (nvidia-smi -L produces output)
 docker pull ghcr.io/woshipapa/nvcr-torch2.7:sc26
 # 1) get the code
-git clone https://github.com/woshipapa/anonymous_Arachne_artifact.git
-cd anonymous_Arachne_artifact
+git clone https://github.com/woshipapa/Arachne_artifact.git
+cd Arachne_artifact
 # 2) build the venv, install deps, patch the VAE.
 #    Use `source`, not `bash`: the script activates .venv in the calling
 #    shell, and a subshell would leave step 3 on the system interpreter.
