@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the archived Zenodo release."
+type: software
+title: "Arachne Artifact (Anonymous)"
+version: 1.0.0
+abstract: "Anonymous artifact containing the code, launch scripts, and pinned dependencies required to demonstrate the core training and execution pipeline."
+authors:
+  - name: "Arachne Artifact Authors"
+repository-code: "https://github.com/woshipapa/Arachne_artifact"
+url: "https://github.com/woshipapa/Arachne_artifact"
+keywords:
+  - "artifact evaluation"
+  - "distributed training"
+  - "video generation"
