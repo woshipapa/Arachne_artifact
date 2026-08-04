@@ -1,5 +1,7 @@
 # Arachne Artifact (Anonymous)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21783193.svg)](https://doi.org/10.5281/zenodo.21783193)
+
 This repository is an anonymous artifact prepared for double-blind review.
 It contains the code required to demonstrate the core training and execution pipeline.
 
@@ -41,4 +43,3 @@ pipeline reaches the training loop on a single machine:
 These test hooks are non-invasive: `run_unified_many.sh` was made to respect a
 pre-set `CUDA_VISIBLE_DEVICES` and a `TRAIN_ITERS` override (both default to the
 original values, so multi-node training behavior is unchanged).
-
