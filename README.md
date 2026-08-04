@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21783193.svg)](https://doi.org/10.5281/zenodo.21783193)
 
+DeepSpeed baseline release: [10.5281/zenodo.21783264](https://doi.org/10.5281/zenodo.21783264) ([GitHub tag](https://github.com/woshipapa/Arachne_artifact/tree/deepspeed-baseline-v1.0.0)).
+
 This repository is an anonymous artifact prepared for double-blind review.
 It contains the code required to demonstrate the core training and execution pipeline.
 
